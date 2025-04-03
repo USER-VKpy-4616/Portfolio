@@ -80,7 +80,7 @@ You are a chatbot, assisting and answering questions based on the resume details
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { sent: false, content: "Hi! How can I help you today?" },
+    { sent: false, content: "Hi! How can i help you learn more about Vaisant and his resume?" },
   ]);
   const [message, setMessage] = useState("");
   const [generating, setGenerating] = useState(false);
@@ -567,7 +567,7 @@ function App() {
                     <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white mr-2">
                       <MessageCircle className="h-4 w-4" />
                     </div>
-                    <span className="font-medium">John's Assistant</span>
+                    <span className="font-medium">Vaisant's Bot</span>
                   </div>
                   <div
                     onClick={toggleChat}
