@@ -139,7 +139,7 @@ function App() {
             <a href="#skills" className="text-sm hover:text-gray-600">
               Skills
             </a>
-            <a href="#skills" className="text-sm hover:text-gray-600">
+            <a href="#projects" className="text-sm hover:text-gray-600">
               Projects
             </a>
             <a href="#resume" className="text-sm hover:text-gray-600">
