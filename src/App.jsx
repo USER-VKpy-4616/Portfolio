@@ -175,7 +175,7 @@ function App() {
             <div className="md:w-1/3 flex justify-center">
               <div className="rounded-full overflow-hidden w-64 h-64 border-4 border-white shadow-lg">
                 <img
-                  src="../../images/pp.jpg"
+                  src="/pp.jpg"
                   alt="pp"
                   width={256}
                   height={256}
@@ -271,9 +271,9 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <h3 className="font-semibold mb-1">Sci-Kit Learn</h3>
+                <h3 className="font-semibold mb-1">Git</h3>
                 <p className="text-xs text-gray-500 text-center">
-                  Building ML models
+                Version control and collaborative code management.
                 </p>
               </div>
 
@@ -319,7 +319,7 @@ function App() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
                 <div className="h-48 overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/imgd.png"
                     alt="AI Image Recognition Project"
                     className="w-full h-full object-cover"
                   />
@@ -352,7 +352,7 @@ function App() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
                 <div className="h-48 overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/ntm.png"
                     alt="Data Visualization Dashboard"
                     className="w-full h-full object-cover"
                   />
@@ -385,7 +385,7 @@ function App() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
                 <div className="h-48 overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=400&width=600"
+                    src="pinn.png"
                     alt="NLP Sentiment Analysis"
                     className="w-full h-full object-cover"
                   />
@@ -409,74 +409,6 @@ function App() {
                   </div>
                 </div>
               </div>
-
-              {/* Project 4 */}
-              {/* <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/placeholder.svg?height=400&width=600" 
-                  alt="Predictive Analytics Tool" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-lg mb-2">Predictive Analytics Tool</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  A tool that uses machine learning to forecast business metrics and identify trends in time-series data.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Time Series</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Scikit-learn</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Pandas</span>
-                </div>
-                
-              </div>
-            </div> */}
-
-              {/* Project 5 */}
-              {/* <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/placeholder.svg?height=400&width=600" 
-                  alt="Recommendation System" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-lg mb-2">Recommendation System</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  A collaborative filtering system that provides personalized recommendations based on user behavior.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Collaborative Filtering</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">NumPy</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Flask</span>
-                </div>
-              </div>
-            </div> */}
-
-              {/* Project 6 */}
-              {/* <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/placeholder.svg?height=400&width=600" 
-                  alt="Automated Trading Algorithm" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-lg mb-2">Automated Trading Algorithm</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  An algorithm that uses machine learning to identify trading opportunities in financial markets.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Reinforcement Learning</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Financial Data</span>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Python</span>
-                </div>
-                
-              </div>
-            </div> */}
             </div>
           </section>
 
