@@ -199,9 +199,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm-1.243 4.243c-1.324 0-2.343.684-2.343 1.824v1.176h-1.176v1.647h1.176v4.706h1.765v-4.706h1.176v-1.647h-1.176v-1c0-.441.353-.794.794-.794h.382v-1.206h-.97c.177 0-.628 0-.628 0z" />
-                    </svg>
+                  <img
+                    src="/python.png" 
+                    alt="Python Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">Python</h3>
@@ -213,9 +215,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M3 3h18v18H3V3zm10.71 14.29c.18.19.43.3.7.3a1.003 1.003 0 0 0 .71-1.71c-.18-.18-.43-.29-.7-.29a1.003 1.003 0 0 0-.71 1.7zM12 7.56l-6.44 6.44c-.19.19-.29.44-.29.71 0 .55.45 1 1 1 .27 0 .52-.11.71-.29L12 10.42l5.02 5.02c.19.19.44.29.71.29.55 0 1-.45 1-1 0-.27-.11-.52-.29-.71L12 7.56z" />
-                    </svg>
+                  <img
+                    src="/js.png" 
+                    alt="js Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">Javascript</h3>
@@ -227,9 +231,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M16.5 8.25H18v1.5h-1.5v-1.5zm0 3H18v1.5h-1.5v-1.5zm0 3H18v1.5h-1.5v-1.5zm-9-6H9v1.5H7.5v-1.5zm0 3H9v1.5H7.5v-1.5zm0 3H9v1.5H7.5v-1.5zm-3-6h1.5v1.5H4.5v-1.5zm0 3h1.5v1.5H4.5v-1.5zm0 3h1.5v1.5H4.5v-1.5zM21 3c.6 0 1 .4 1 1v16c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1V4c0-.6.4-1 1-1h18zm-1 2H4v14h16V5z" />
-                    </svg>
+                    <img
+                    src="/html.png" 
+                    alt="html Logo"
+                    className="w-8 h-8 object-contain"     
+                    />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">HTML/CSS</h3>
@@ -241,9 +247,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-9c.83 0 1.5-.67 1.5-1.5S7.83 8 7 8s-1.5.67-1.5 1.5S6.17 11 7 11zm8-1.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5.67 1.5 1.5 1.5 1.5-.67 1.5-1.5z" />
-                    </svg>
+                  <img
+                    src="/c.svg" 
+                    alt="c++ Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">C++</h3>
@@ -255,9 +263,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M11 2v2.07C7.38 4.53 4.53 7.38 4.07 11H2v2h2.07c.46 3.62 3.31 6.47 6.93 6.93V22h2v-2.07c3.62-.46 6.47-3.31 6.93-6.93H22v-2h-2.07c-.46-3.62-3.31-6.47-6.93-6.93V2h-2zm1 4.08V8h2.08c.44 1.73 1.57 3.2 3.13 4h-1.68c-.38.85-.97 1.57-1.7 2.13-.15.12-.32.22-.48.32-.16-.1-.33-.2-.49-.32-.73-.56-1.32-1.28-1.7-2.13h-1.68c1.56-.8 2.69-2.27 3.13-4H12V6.08c.32-.04.66-.08 1-.08s.68.04 1 .08z" />
-                    </svg>
+                  <img
+                    src="/pytorch.svg" 
+                    alt="Pytorch Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">Tensorflow/PyTorch</h3>
@@ -269,9 +279,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                    </svg>
+                  <img
+                    src="/github.svg" 
+                    alt="github Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">Git</h3>
@@ -283,9 +295,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14h-2V9h-2V7h6v2h-2v8z" />
-                    </svg>
+                  <img
+                    src="/opencv.svg" 
+                    alt="opencv Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">OpenCV</h3>
@@ -297,9 +311,11 @@ function App() {
               <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <div className="bg-purple-100 p-3 rounded-lg mb-4">
                   <div className="text-purple-600 w-8 h-8">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M21 11.5v-1c0-.8-.7-1.5-1.5-1.5H16v-2c0-.8-.7-1.5-1.5-1.5h-1c-.8 0-1.5.7-1.5 1.5V9h-2V7c0-.8-.7-1.5-1.5-1.5h-1C6.7 5.5 6 6.2 6 7v2H4.5C3.7 9 3 9.7 3 10.5v1c0 .8.7 1.5 1.5 1.5H6v2H4.5c-.8 0-1.5.7-1.5 1.5v1c0 .8.7 1.5 1.5 1.5H8v-2h2v2h4v-2h2v2h3.5c.8 0 1.5-.7 1.5-1.5v-1c0-.8-.7-1.5-1.5-1.5H18v-2h1.5c.8 0 1.5-.7 1.5-1.5z" />
-                    </svg>
+                  <img
+                    src="/np.svg" 
+                    alt="np Logo"
+                    className="w-8 h-8 object-contain"     
+                   />
                   </div>
                 </div>
                 <h3 className="font-semibold mb-1">Pandas/NumPy</h3>
