@@ -578,7 +578,7 @@ function App() {
         </main>
 
         <footer className="container mx-auto p-4 text-center text-sm text-gray-500">
-          <p>© 2024 John Doe. All rights reserved.</p>
+          <p>© 2024 Vaisant K. All rights reserved.</p>
         </footer>
       </div>
     </>
