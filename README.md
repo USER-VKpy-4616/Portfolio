@@ -9,9 +9,9 @@ Feel free to explore, and don’t hesitate to reach out if you'd like to connect
 Here's the link to my Portfolio: [Vaisant K's Portfolio](https://portfolio-git-main-vaisant-k-iitracins-projects.vercel.app/)
 
 # Built With
-This project was built using these technologies
-Node.js
-React
-HTML
-CSS
+This project was built using these technologies\
+Node.js\
+React\
+HTML\
+CSS\
 Gemini API
