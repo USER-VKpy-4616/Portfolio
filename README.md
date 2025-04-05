@@ -10,3 +10,8 @@ Here's the link to my Portfolio: [Vaisant K's Portfolio](https://portfolio-git-m
 
 # Built With
 This project was built using these technologies
+Node.js
+React
+HTML
+CSS
+Gemini API
