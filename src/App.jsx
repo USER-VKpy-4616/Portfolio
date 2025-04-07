@@ -169,12 +169,12 @@ function App() {
               </p>
               <p className="text-gray-600 mb-6 max-w-md">
                 If you want to know more about me, you can have a chat with {' '}
-                  <span
-                    onClick={toggleChat}
-                    className="text-blue-500 cursor-pointer underline"
-                  >
-                    my chatbot
-                  </span>
+                   <button
+                      onClick={toggleChat}
+                      className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75"
+                    >
+                      My Chatbot
+                    </button>
               </p>
               <div className="flex space-x-4">
               <a href="/Vaisant_Resume.pdf" download>
