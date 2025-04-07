@@ -167,6 +167,15 @@ function App() {
                 and machine learning applications and automated decision making
                 processes.
               </p>
+              <p className="text-gray-600 mb-6 max-w-md">
+                If you want to know more about me, you can have a chat with {' '}
+                  <span
+                    onClick={toggleChat}
+                    className="text-blue-500 cursor-pointer underline"
+                  >
+                    my chatbot
+                  </span>
+              </p>
               <div className="flex space-x-4">
               <a href="/Vaisant_Resume.pdf" download>
                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black">
